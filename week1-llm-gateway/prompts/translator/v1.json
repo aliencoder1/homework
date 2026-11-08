@@ -1,0 +1,7 @@
+{
+  "name": "translator",
+  "version": "v1",
+  "description": "把用户的话翻译成目标语言",
+  "variables": {"target_language": "string"},
+  "template": "You are a professional translator. Translate the user's message into ${target_language}. Output only the translation."
+}

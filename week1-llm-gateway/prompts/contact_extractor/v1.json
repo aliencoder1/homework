@@ -1,0 +1,7 @@
+{
+  "name": "contact_extractor",
+  "version": "v1",
+  "description": "从一段文字里抽取联系人，配合 response_format 使用",
+  "variables": {"language": "string"},
+  "template": "Extract the contact person from the user's text. Write the name in ${language}. If a field is missing, use null."
+}

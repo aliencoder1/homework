@@ -1,0 +1,7 @@
+{
+  "name": "translator",
+  "version": "v2",
+  "description": "v2：增加语气变量",
+  "variables": {"target_language": "string", "tone": "string"},
+  "template": "You are a professional translator. Translate the user's message into ${target_language} with a ${tone} tone. Output only the translation."
+}
